@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>60</y>
+      <w>420</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>REMOTE DATA
+--
+id INT PRIMARY KEY
+date DATETIME
+soilHumidityPin FLOAT
+soilHumidityValue FLOAT
+lightIntensityPin FLOAT
+lightIntensityValue FLOAT
+temperatureValue: FLOAT
+airHumidityValue: FLOAT
+
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>510</y>
+      <w>420</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>LOCAL DATA
+--
+id INT PRIMARY KEY
+date DATETIME
+soilHumidityPin FLOAT
+soilHumidityValue FLOAT
+lightIntensityPin FLOAT
+lightIntensityValue FLOAT
+temperatureValue: FLOAT
+airHumidityValue: FLOAT
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>120</y>
+      <w>510</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;390.0;10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>890</x>
+      <y>100</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(1,1)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>410</x>
+      <y>470</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(0,1)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>510</x>
+      <y>160</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>TRANSFERS DATA
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

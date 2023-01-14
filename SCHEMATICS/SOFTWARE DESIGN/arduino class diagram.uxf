@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>580</y>
+      <w>260</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>PrimaryArduinoSupportClass
+--
++PrimaryArduinoMainClass: Class
+--
++setup(): void
++loop(): void
+
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>240</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>PrimaryArduinoMainClass
+--
+-temperatureValue: float
+-airHumidityValue: float
+--
++setup(): void
++loop(): void
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>420</y>
+      <w>30</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>240</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>SupportArduinoMainClass
+--
+-soilHumidityPin float;
+-soilHumidityValue float;
+-lightIntensityPin float;
+-lightIntensityValue float;
+--
++setup(): void
++loop(): void
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1050</x>
+      <y>240</y>
+      <w>260</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>SupportArduinoSupportClass
+--
++SupportArduinoMainClass: Class
+--
++setup(): void
++loop(): void
+
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>320</y>
+      <w>220</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1090</x>
+      <y>580</y>
+      <w>240</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>SupportArduinoMonitorMainClass
+--
+-duration long;
+-precipitation long;
+-trig int;
+-echo int;
+-redWavelength int;
+-blueWavelength int ;
+-greenWavelength int ;
+-waterBuzzer int;
+--
++setup(): void
++loop(): void
+
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>580</y>
+      <w>290</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>SupportArduinoMonitorSupportClass
+--
++SupportArduinoMonitorMainClass: Class
+--
++setup(): void
++loop(): void
+
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>660</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>870</x>
+      <y>290</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(1,1)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>980</x>
+      <y>340</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(1,1)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>930</x>
+      <y>680</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(1,1)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1030</x>
+      <y>630</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(1,1)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>350</x>
+      <y>440</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(1,1)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>430</x>
+      <y>540</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(1,1)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

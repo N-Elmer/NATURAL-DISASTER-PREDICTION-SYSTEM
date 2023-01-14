@@ -1,0 +1,421 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA#0_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack PS1
+   (shape (circ TOP 307340 0 0))
+   (shape (circ I1 307340 0 0))
+   (shape (circ I2 307340 0 0))
+   (shape (circ I3 307340 0 0))
+   (shape (circ I4 307340 0 0))
+   (shape (circ I5 307340 0 0))
+   (shape (circ I6 307340 0 0))
+   (shape (circ I7 307340 0 0))
+   (shape (circ I8 307340 0 0))
+   (shape (circ I9 307340 0 0))
+   (shape (circ I10 307340 0 0))
+   (shape (circ I11 307340 0 0))
+   (shape (circ I12 307340 0 0))
+   (shape (circ I13 307340 0 0))
+   (shape (circ I14 307340 0 0))
+   (shape (circ BOT 307340 0 0))
+  )
+  (padstack PS10
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00000 
+   (rule
+   )
+   )
+   (Net #00002 
+   (rule
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   )
+   (Net #00011 
+   (rule
+   )
+   )
+   (Net #00012 
+   (rule
+   )
+   )
+   (Net #00016 
+   (rule
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   )
+   (Net #00023 
+   (rule
+   )
+   )
+   (Net #00028 
+   (rule
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   )
+   (Net #00031 
+   (rule
+   )
+   )
+   (Net #00032 
+   (rule
+   )
+   )
+   (Net #00037 
+   (rule
+   )
+   )
+   (Net #00038 
+   (rule
+   )
+   )
+   (Net #00039 
+   (rule
+   )
+   )
+   (Net #00040 
+   (rule
+   )
+   )
+   (Net #00041 
+   (rule
+   )
+   )
+   (Net #00042 
+   (rule
+   )
+   )
+   (Net #00043 
+   (rule
+   )
+   )
+   (Net #00045 
+   (rule
+   )
+   )
+   (Net #00048 
+   (rule
+   )
+   )
+   (Net #00049 
+   (rule
+   )
+   )
+   (Net #00050 
+   (rule
+   )
+   )
+   (Net #00056 
+   (rule
+   )
+   )
+   (Net #00057 
+   (rule
+   )
+   )
+   (Net #00058 
+   (rule
+   )
+   )
+   (Net #00059 
+   (rule
+   )
+   )
+   (Net #00110 
+   (rule
+   )
+   )
+   (Net #00111 
+   (rule
+   )
+   )
+   (Net #00112 
+   (rule
+   )
+   )
+   (Net #00113 
+   (rule
+   )
+   )
+   (Net #00114 
+   (rule
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   )
+   (Net OSC1/CLKI 
+   (rule
+   )
+   )
+   (Net RA1/AN1 
+   (rule
+   )
+   )
+   (Net RA2/AN2/VREF- 
+   (rule
+   )
+   )
+   (Net RA3/AN3/VREF+ 
+   (rule
+   )
+   )
+   (Net RA4/T0CKI 
+   (rule
+   )
+   )
+   (Net RA5/AN4/$SS$/LVDIN 
+   (rule
+   )
+   )
+   (Net RA6/OSC2/CLKO 
+   (rule
+   )
+   )
+   (Net RB1/INT1 
+   (rule
+   )
+   )
+   (Net RB2/INT2 
+   (rule
+   )
+   )
+   (Net RB3/CCP2B 
+   (rule
+   )
+   )
+   (Net RB4 
+   (rule
+   )
+   )
+   (Net RB5/PGM 
+   (rule
+   )
+   )
+   (Net RB6/PGC 
+   (rule
+   )
+   )
+   (Net RB7/PGD 
+   (rule
+   )
+   )
+   (Net RC0/T1OSO/T1CKI 
+   (rule
+   )
+   )
+   (Net RC1/T1OSI/CCP2A 
+   (rule
+   )
+   )
+   (Net RC3/SCK/SCL 
+   (rule
+   )
+   )
+   (Net RC4/SDI/SDA 
+   (rule
+   )
+   )
+   (Net RC5/SDO 
+   (rule
+   )
+   )
+   (Net RC6/TX/CK 
+   (rule
+   )
+   )
+   (Net RC7/RX/DT 
+   (rule
+   )
+   )
+   (Net RD0/PSP0 
+   (rule
+   )
+   )
+   (Net RD1/PSP1 
+   (rule
+   )
+   )
+   (Net RD2/PSP2 
+   (rule
+   )
+   )
+   (Net RD3/PSP3 
+   (rule
+   )
+   )
+   (Net RD4/PSP4 
+   (rule
+   )
+   )
+   (Net RD5/PSP5 
+   (rule
+   )
+   )
+   (Net RD6/PSP6 
+   (rule
+   )
+   )
+   (Net RD7/PSP7 
+   (rule
+   )
+   )
+   (Net RE0/$RD$/AN5 
+   (rule
+   )
+   )
+   (Net RE1/$WR$/AN6 
+   (rule
+   )
+   )
+   (Net RE2/$CS$/AN7 
+   (rule
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   )
+   (Net {NC-1} 
+   (via PS1 3175000 787400 (net {NC-1} )
+    (type protect))
+   )
+   (Net {NC-2} 
+   (via PS1 3175000 -2032000 (net {NC-2} )
+    (type protect))
+   )
+   (Net {NC-3} 
+   (via PS1 -1905000 2286000 (net {NC-3} )
+    (type protect))
+   )
+   (Net {NC-4} 
+   (via PS1 -2032000 -2540000 (net {NC-4} )
+    (type protect))
+   )
+  )
+ )
