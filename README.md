@@ -58,7 +58,7 @@ NATURAL-DISASTER-PREDICTION-SYSTEM/
 
 │   └── Circuit Simulations
 
-└── SCHEMATICS/ 📐
+└── SCHEMATICS/    📐
 
     └── SOFTWARE DESIGN/
 
