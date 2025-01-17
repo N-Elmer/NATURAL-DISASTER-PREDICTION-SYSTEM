@@ -6,50 +6,68 @@ A comprehensive AI-Powered embedded system designed to predict the possibility o
 
 ## Features
 
-- **Real-time Monitoring**: Collects environmental data using Arduino-based sensors
-- **Data Processing**: Processes sensor data for soil moisture, temperature, humidity and light intensity
-- **Local Storage**: Stores sensor readings in local database for offline analysis
-- **Remote Storage**: Syncs data with remote database for backup and distributed access
-- **Machine Learning**: Uses scikit-learn models to predict landslide probability
-- **Visualization**: Interactive plots and graphs using matplotlib and seaborn
-- **Hardware Design**: Complete electronic system design in Proteus
-- **Web Interface**: Online dashboard for monitoring and predictions
+- **Real-time Monitoring**: Collects environmental data using Arduino-based sensors.
+- **Data Processing**: Processes sensor data for soil moisture, temperature, humidity and light intensity.
+- **Local Storage**: Stores sensor readings in local database for offline analysis.
+- **Remote Storage**: Syncs data with remote database for backup and distributed access.
+- **Machine Learning**: Uses scikit-learn models to predict landslide probability.
+- **Visualization**: Interactive plots and graphs using matplotlib and seaborn.
+- **Hardware Design**: Complete electronic system design in Proteus.
+- **Web Interface**: Online dashboard for monitoring and predictions.
 
 ## Project Structure
 
 ```
 NATURAL-DISASTER-PREDICTION-SYSTEM/
 
-├── APPLICATION/ 📊
+├── APPLICATION/  📊
+
 │   └── NATURAL DISASTER PREDICTION SYSTEM.ipynb  🤖 ML model training notebook
 
-├── DATABASE/ 💾
-│   ├── msodbcsql_2.msi                         🔌 SQL driver
-│   ├── msodbcsql.msi                           🔌 SQL driver
-│   ├── Plant & Environmental Data.sql          📝 SQL database
-│   └── Plant & Environmental Data.sql.bak      💾 Backup file
+├── DATABASE/     💾
+
+│   ├── msodbcsql_2.msi                           🔌 SQL driver
+
+│   ├── msodbcsql.msi                             🔌 SQL driver
+
+│   ├── Plant & Environmental Data.sql            📝 SQL database
+
+│   └── Plant & Environmental Data.sql.bak        💾 Backup file
 
 ├── DOCUMENTATION/ 📚
 
 ├── HARDWARE/ 🔧
+
 │   ├── environmentalData_MainClass_PrimaryArduino/    
-│   │   └── environmentalData_MainClass_PrimaryArduino.ino  🎯 Primary Arduino code
+
+│   │   └── environmentalData_MainClass_PrimaryArduino.ino     🎯 Primary Arduino code
+
 │   ├── environmentalData_MainClass_SupportArduino/
-│   │   └── environmentalData_MainClass_SupportArduino.ino  🔄 Support Arduino code
+
+│   │   └── environmentalData_MainClass_SupportArduino.ino     🔄 Support Arduino code
+
 │   └── environmentalData_MonitorClass_SupportArduino/
+
 │       └── environmentalData_MonitorClass_SupportArduino.ino  📡 Monitoring code
 
-├── INTERFACE/ 🖥️
+├── INTERFACE/     🖥️
 
-├── PROTEUS/ ⚡
+├── PROTEUS/       ⚡
+
 │   ├── Electronic Design Files
+
 │   └── Circuit Simulations
 
 └── SCHEMATICS/ 📐
+
     └── SOFTWARE DESIGN/
+
         ├── arduino class diagram.uxf           📊 Class diagram
+
         ├── arduino E-R diagram.uxf             📊 E-R diagram
+
         ├── arduino sequence diagram.uxf        📊 Sequence diagram
+
         └── arduino use case diagram.uxf        📊 Use case diagram
 ```
 
