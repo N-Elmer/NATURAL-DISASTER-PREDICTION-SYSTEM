@@ -36,7 +36,7 @@ NATURAL-DISASTER-PREDICTION-SYSTEM/
 
 ├── DOCUMENTATION/ 📚
 
-├── HARDWARE/ 🔧
+├── HARDWARE/      🔧
 
 │   ├── environmentalData_MainClass_PrimaryArduino/    
 
